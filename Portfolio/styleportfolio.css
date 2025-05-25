@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e7d4 ;
+}
+
+.header{
+    height: 50px;
+    color: #100909;
+    background-color: #e9e7d4;
+}
+
+.about_me{
+    height: 320px;
+}
+
+.skill{
+    height: 320px;
+    
+}
+
+.Projects{
+    height: 320px;
+}
+
+.Resume{
+    height: 320px;
+}
+
+.Contact{
+    height: 320px;
+}
+
+.page{
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.page_sections{
+    position: absolute;
+    right: 0;
+    top: 0; 
+    display: flex;
+    margin-right: 5px;
+    
+}
+
+
+.about_me{
+    display: flex;
+}
+
+.left-box,
+.right-box {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 2px;
+}
+
